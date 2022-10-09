@@ -46,7 +46,7 @@ python-versions = ">=3.5"
 
 [[package]]
 name = "python-namespace-demo-app1"
-version = "0.3.0"
+version = "0.4.0"
 description = "app1 as sub-command to main cli from shared"
 category = "main"
 optional = false
@@ -54,17 +54,17 @@ python-versions = "^3.10"
 develop = false
 
 [package.dependencies]
-python-namespace-demo-base = {git = "git@github.com:spsoni/python-namespace-demo-base.git", tag = "0.4.0"}
+python-namespace-demo-base = {git = "git@github.com:spsoni/python-namespace-demo-base.git", tag = "0.5.0"}
 
 [package.source]
 type = "git"
 url = "git@github.com:spsoni/python-namespace-demo-app1.git"
-reference = "0.3.0"
-resolved_reference = "23948afaea92379194cf70c07ed0c479c540edb2"
+reference = "0.4.0"
+resolved_reference = "c53795af02cbf156c6bef81bdee5b59e5a13fdd8"
 
 [[package]]
 name = "python-namespace-demo-app2"
-version = "0.1.0"
+version = "0.2.0"
 description = "app2 as sub-command to demo-cli"
 category = "main"
 optional = false
@@ -72,18 +72,18 @@ python-versions = "^3.10"
 develop = false
 
 [package.dependencies]
-python-namespace-demo-base = {git = "git@github.com:spsoni/python-namespace-demo-base.git", tag = "0.4.0"}
+python-namespace-demo-base = {git = "git@github.com:spsoni/python-namespace-demo-base.git", tag = "0.5.0"}
 
 [package.source]
 type = "git"
 url = "git@github.com:spsoni/python-namespace-demo-app2.git"
-reference = "0.1.0"
-resolved_reference = "9acd344afcb735651c4e29764040a1033b993d4d"
+reference = "0.2.0"
+resolved_reference = "3f967cb7ed1c65d4552cefa934b6649a1e603abd"
 
 [[package]]
 name = "python-namespace-demo-base"
-version = "0.4.0"
-description = "base"
+version = "0.5.0"
+description = "base and shared git repository"
 category = "main"
 optional = false
 python-versions = "^3.10"
@@ -96,8 +96,8 @@ requests = "^2.28.1"
 [package.source]
 type = "git"
 url = "git@github.com:spsoni/python-namespace-demo-base.git"
-reference = "0.4.0"
-resolved_reference = "85c93725d9c7f8caaf081ffaf83b5c0fe6301133"
+reference = "0.5.0"
+resolved_reference = "87f873b3497af5e5ee36a5e6ab0543f1192151df"
 
 [[package]]
 name = "requests"
@@ -133,7 +133,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "75ae93aad9f29bb489fa6a918df200d23f5969ea5f08ae5d7977769564bf1631"
+content-hash = "d286437b754c3e5fa1de928e1215a03b3204dd7a42bf0777282a64057a0da980"
 
 [metadata.files]
 certifi = [

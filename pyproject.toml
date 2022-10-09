@@ -1,15 +1,15 @@
 [tool.poetry]
 name = "python-namespace-demo"
-version = "0.1.0"
-description = ""
+version = "0.2.0"
+description = "Combind sub-projects including base project"
 authors = ["Sury Soni <suryasoni@gmail.com>"]
 readme = "README.md"
 packages = [{include = "namespace_demo", from="src"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-python-namespace-demo-app1 = {git = "git@github.com:spsoni/python-namespace-demo-app1.git",  tag = "0.3.0"}
-python-namespace-demo-app2 = {git = "git@github.com:spsoni/python-namespace-demo-app2.git",  tag = "0.1.0"}
+python-namespace-demo-app1 = {git = "git@github.com:spsoni/python-namespace-demo-app1.git",  tag = "0.4.0"}
+python-namespace-demo-app2 = {git = "git@github.com:spsoni/python-namespace-demo-app2.git",  tag = "0.2.0"}
 
 [tool.poetry.scripts]
 demo-cli = "namespace_demo.main_demo:cli"
